@@ -1,0 +1,110 @@
+body{
+    background-color:#89a4ce;
+    font-family: 'Balthazar', serif;
+    background-image: url("admin3.jpg");
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.donate-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#8388d8;
+    margin: 20px;
+    
+    width: 500px;
+    
+    box-shadow: 0 5px 30px 10px rgba(0,0,0,0.4);
+    
+}
+/** DRop select option**/
+ /* .select-box{
+     width: 0ch;
+    justify-content: center;
+    align-items: center;
+}  */
+.select-box select{
+    height: 42px;
+    width: 400px;
+    
+    padding: 10px 15px;
+    line-height: 22px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    -webkit-appearance: none;
+    appearance: none;
+    color: #282629;
+    border-radius: 2px solid black;
+}
+
+
+
+label{
+    font-size: 30px;
+    margin-bottom:10px ;
+    
+    
+}
+
+
+input{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+textarea{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+button{
+    width: 30%;
+    height: 50px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 2px solid black;
+    font-size: 30px;
+    font-family: 'Balthazar', serif;
+
+}
+
+@media screen and (max-width:768px){
+    .donate-form{
+        width: 300px;
+    }
+    .custom-select mr-sm-2{
+        width: 300px;
+    }
+    input{
+        width: 200px;
+        height: 20px;
+    }
+    label{
+        font-size: 20px;
+    }
+    button{
+        width: 35%;
+        font-size: 20px;
+    }
+    textarea{
+        width: 200px;
+        height: 30px;
+    }
+}
